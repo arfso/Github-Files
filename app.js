@@ -13,11 +13,15 @@ const server = http.createServer((req, res) =>
    {
      urll += 'website.html';
    }
-   else if(req.url == 'About Us')
+   else if(req.url == '/website.html')
+   {
+     urll += 'website.html';
+   }
+   else if(req.url == '/about.html')
    {
      urll += 'about.html';
    }
-   else if(req.url == 'Contact Us')
+   else if(req.url == '/contactus.html')
    {
      urll += 'contactus.html';
    }
