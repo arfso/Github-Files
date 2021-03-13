@@ -1,0 +1,30 @@
+{
+  "name": "github-files",
+  "version": "1.0.0",
+  "description": "json",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "lol",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arfso/pa-2.git"
+  },
+  "keywords": [
+    "app"
+  ],
+  "author": "AR SO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arfso/pa-2/issues"
+  },
+  "homepage": "https://github.com/arfso/pa-2#readme"
+}
